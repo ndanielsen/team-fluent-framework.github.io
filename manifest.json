@@ -1,0 +1,15 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Fluent Framework",
+    "scope": "/",
+    "display": "minimal-ui",
+    "start_url": "https://team-fluent-framework.github.io/",
+    "short_name": "FFW",
+    "theme_color": "#E0E0E0",
+    "description": "Fluent Framework is a new way to design your Universal Windows Platform apps.",
+    "orientation": "any",
+    "background_color": "#E0E0E0",
+    "related_applications": [],
+    "prefer_related_applications": false,
+}

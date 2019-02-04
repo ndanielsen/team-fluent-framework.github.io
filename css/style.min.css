@@ -1,0 +1,295 @@
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.card-columns {
+    column-gap: 2rem;
+    column-count: 2;
+}
+
+@media only screen and (max-width:991px) {
+    .card-columns {
+        column-count: 1
+    }
+
+    .navbar-social {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 8px
+    }
+}
+
+.blog-pagination,
+.blog-post {
+    margin-bottom: 6rem
+}
+
+.blog-post-date,
+.blog-post-title {
+    margin-bottom: 12px
+}
+
+@media only screen and (min-width:992px) {
+    .blog-post-title {
+        font-size: 64px
+    }
+}
+
+.form-control {
+    border-radius: 2px;
+    transition: box-shadow .1s ease-in-out
+}
+
+.form-control:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .1)
+}
+
+.form-control:focus {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .4)
+}
+
+.btn {
+    padding: 8px 24px;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    font-weight: 500;
+    transition: box-shadow .1s ease-in-out, background-color .1s ease-in-out
+}
+
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .1)
+}
+
+.btn:active {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1)
+}
+
+.btn-primary {
+    color: #0078D7;
+    background-color: #fff
+}
+
+.btn-accent {
+    color: #fff;
+    background-color: #0078D7
+}
+
+.btn-accent:hover {
+    color: #0078D7;
+    background-color: #fff
+}
+
+.btn-accent svg.twitter {
+    fill: #fff
+}
+
+.btn-accent:hover svg.twitter {
+    fill: #205D86
+}
+
+.btn-accent:active {
+    color: #0078D7;
+    background-color: #f0f0f0
+}
+
+a:not([href]):not([tabindex]).btn-accent {
+    color: #fff
+}
+
+.card-columns .card {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    transition: box-shadow .1s ease-in-out
+}
+
+.card-img-top {
+    border-radius: 0
+}
+
+.card:hover {
+    z-index: 100;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, .1)
+}
+
+.card:active {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1)
+}
+
+.card .card-link {
+    color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+
+.card .card-link .card-image,
+.card-actions,
+.card-body,
+.card-title,
+.screenshot.card-ss {
+    pointer-events: none;
+    position: relative;
+    z-index: 10
+}
+
+.card .card-link .card-image a,
+.card-actions .button,
+.card-actions a,
+.card-body .button,
+.card-body a,
+.card-image button,
+.card-title a,
+.card-title button,
+.screenshot {
+    pointer-events: auto
+}
+
+.nav-item {
+    margin-top: 2px;
+    border-bottom: transparent solid 2px;
+    transition: border-bottom .1s ease-in-out
+}
+
+.nav-item.active,
+.nav-item:hover {
+    border-bottom: #205D86 solid 2px
+}
+
+.footer-section {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+a.social-icon {
+    color: #666;
+    margin-right: 30px
+}
+@media only screen and (max-width:396px) {
+
+    .social-about a,
+    a.social-icon {
+        margin-right: 20px
+    }
+}
+
+@supports(padding:max(0px)) {
+
+    .container,
+    .container-fluid {
+        padding-left: max(15px, env(safe-area-inset-left));
+        padding-right: max(15px, env(safe-area-inset-right))
+    }
+}
+
+a.social-icon svg {
+    transition: color .1s ease-in-out
+}
+
+a.social-icon:hover svg.fa-twitter {
+    color: #1da1f2
+}
+
+a.social-icon:hover svg.fa-github {
+    color: #333
+}
+
+.modal-content {
+    border: 0;
+    border-radius: 0
+}
+
+.alert {
+    border-radius: 0
+}
+
+.foot-left {
+    text-align: left
+}
+
+.foot-right {
+    text-align: right
+}
+
+.figure.screenshot-figure {
+    display: block
+}
+
+.screenshot {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    font-size: 0
+}
+
+.screenshot .img-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+
+.jumbotron {
+    border-radius: 0;
+    background-color:#fff;
+    background-image:url(/img/ms-surface.jpg);
+    background-size:cover;
+    align-content:center;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: calc(100vh - 194px); /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+
+.acrylic-bg {
+    background-color: rgb(250,249,248);
+    padding: 2rem;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .4);
+}
+
+@media only screen and (max-width:767px) {
+    .footer-section {
+        padding-top: 0
+    }
+
+    .foot-left,
+    .foot-right,
+    .footer-section {
+        text-align: center
+    }
+
+    .foot-left {
+        margin-bottom: 12px
+    }
+    
+    .jumbotron {
+        height: 100%;
+    }
+}
+
+
+@supports (backdrop-filter: blur(30px) saturate(150%)) or (-webkit-backdrop-filter: blur(30px) saturate(150%)) {
+    .acrylic-bg {
+        background-color: rgba(250,249,248,.8);
+        backdrop-filter: blur(30px) saturate(150%);
+        -webkit-backdrop-filter: blur(30px) saturate(150%);
+    }
+}

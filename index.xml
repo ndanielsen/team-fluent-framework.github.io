@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fluent Framework</title>
+    <link>https://team-fluent-framework.github.io/</link>
+    <description>Recent content on Fluent Framework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://team-fluent-framework.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acknowledgements</title>
+      <link>https://team-fluent-framework.github.io/acknowledgements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://team-fluent-framework.github.io/acknowledgements/</guid>
+      <description>Homepage image Unsplash is a great place for images. The one on our homepage is by Majid Rangraz. View on Unsplash
+Bootstrap This site uses a heavily modified version of the Bootstrap framework—many of the unused components have been stripped out for better performance and some have been adjusted for better accessibility.
+Read Bootstrap MIT Licence.
+Font Awesome Some of the glyphs on this site are from the Font Awesome collection of icons.</description>
+    </item>
+    
+  </channel>
+</rss>
