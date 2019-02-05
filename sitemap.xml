@@ -3,6 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://team-fluent-framework.github.io/implement/install-the-framework/</loc>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://team-fluent-framework.github.io/examples/empty/</loc>
+  </url>
+  
+  <url>
+    <loc>https://team-fluent-framework.github.io/guidelines/empty/</loc>
+  </url>
+  
+  <url>
     <loc>https://team-fluent-framework.github.io/acknowledgements/</loc>
   </url>
   
@@ -12,7 +25,24 @@
   </url>
   
   <url>
+    <loc>https://team-fluent-framework.github.io/examples/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://team-fluent-framework.github.io/</loc>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://team-fluent-framework.github.io/guidelines/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://team-fluent-framework.github.io/implement/</loc>
+    <lastmod>2019-02-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guidelines on Fluent Framework</title>
+    <link>https://team-fluent-framework.github.io/guidelines/</link>
+    <description>Recent content in Guidelines on Fluent Framework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://team-fluent-framework.github.io/guidelines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://team-fluent-framework.github.io/guidelines/empty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://team-fluent-framework.github.io/guidelines/empty/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

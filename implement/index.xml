@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Implement on Fluent Framework</title>
+    <link>https://team-fluent-framework.github.io/implement/</link>
+    <description>Recent content in Implement on Fluent Framework</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://team-fluent-framework.github.io/implement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install the framework</title>
+      <link>https://team-fluent-framework.github.io/implement/install-the-framework/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://team-fluent-framework.github.io/implement/install-the-framework/</guid>
+      <description>Download NuGet package.
+Add references to it in your app.
+???
+Profit!</description>
+    </item>
+    
+  </channel>
+</rss>
